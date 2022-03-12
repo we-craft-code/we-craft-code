@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { FaGithub, FaDiscord, FaReddit, FaTwitter } from 'react-icons/fa'
+=======
+import { FaGithub, FaDiscord, FaReddit } from 'react-icons/fa'
+>>>>>>> b711824 (Feat: Add Reddit Discord GitHub buttons (#6))
 
 export default function Header() {
   return (
@@ -23,9 +27,12 @@ export default function Header() {
       <a href="https://www.reddit.com/r/wecraftcode/" target="_blank">
         <FaReddit style={{ color: '#ff4500' }} />
       </a>
+<<<<<<< HEAD
       <a href="https://twitter.com/we_craft_code" target="_blank">
         <FaTwitter style={{ color: '#00acee' }} />
       </a>
+=======
+>>>>>>> b711824 (Feat: Add Reddit Discord GitHub buttons (#6))
     </div>
   )
 }
