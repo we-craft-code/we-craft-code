@@ -6,10 +6,15 @@ import {
   Scripts,
   ScrollRestoration,
 } from 'remix'
-import type { MetaFunction } from 'remix'
+import styles from './styles/app.css'
+import type { MetaFunction, LinksFunction } from 'remix'
 
 export const meta: MetaFunction = () => {
   return { title: 'wecraftcode.org' }
+}
+
+export const links: LinksFunction = () => {
+  return [{ rel: "stylesheet", href: styles }]
 }
 
 export default function App() {
