@@ -476,6 +476,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 80%;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.content-center {
+  align-content: center;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pr-\[30px\] {
+  padding-right: 30px;
+}
+
+.pl-\[40px\] {
+  padding-left: 40px;
+}
+
+.text-\[4\.0rem\] {
+  font-size: 4.0rem;
 }
