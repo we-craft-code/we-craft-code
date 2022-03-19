@@ -2,7 +2,7 @@ import { FaGithub, FaDiscord, FaReddit, FaTwitter } from 'react-icons/fa'
 
 export default function Header() {
   return (
-    <header className="bg-white border-solid border border-red-100 ">
+    <header className="bg-white border-solid border border-red-100 pl-3">
     <div className="container mx-auto mt-3 mb-3">
       <div className="flex flex-row justify-between">
         <h2><img className="h-14" src="/images/head_logo.png" alt="" /></h2>
