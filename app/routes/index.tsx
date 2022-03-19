@@ -1,12 +1,13 @@
 import Body from '~/components/Body'
+import Footer from '~/components/Footer'
 import Header from '~/components/Header'
-import { FaGithub, FaDiscord, FaReddit, FaTwitter } from 'react-icons/fa'
 
 export default function Index() {
   return (
-    <div className='flex flex-col h-screen'>
+    <div style={{ background: `url("/images/wall_logo.png") no-repeat fixed center` }} className="flex flex-col h-screen">
       <Header />
       <Body />
+      <Footer />
     </div>
   )
 }
