@@ -1,7 +1,16 @@
 export default function Body() {
   return (
-    <div className="flex justify-center">
-      <img className="max-w-[80%]" src="/images/logo_transparent_background.png" />
-    </div>
+    <main className='bg-red-50 opacity-60 bg-scroll flex flex-grow bg-cover'>
+        <div className='flex flex-row container mx-auto'>
+          <section className='basis-1/2'>
+            <div>
+            </div>
+          </section>
+          <section className='basis-1/2'>
+            <div>
+            </div>
+          </section>
+        </div>
+      </main>
   )
 }

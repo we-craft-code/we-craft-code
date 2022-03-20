@@ -43,7 +43,7 @@ export default function App() {
           href="/favicon/favicon-16x16.png"
         />
       </head>
-      <body className='!m-0 border-box'>
+      <body>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
