@@ -468,44 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
-.fixed {
-  position: fixed;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -527,20 +489,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.h-14 {
-  height: 3.5rem;
+.h-full {
+  height: 100%;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-6 {
+  height: 1.5rem;
 }
 
 .h-screen {
   height: 100vh;
 }
 
-.flex-grow {
-  flex-grow: 1;
+.w-6 {
+  width: 1.5rem;
 }
 
-.basis-1\/2 {
-  flex-basis: 50%;
+.max-w-\[1024px\] {
+  max-width: 1024px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .flex-row {
@@ -551,55 +525,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.justify-between {
-  justify-content: space-between;
+.items-center {
+  align-items: center;
 }
 
-.border {
-  border-width: 1px;
+.justify-center {
+  justify-content: center;
 }
 
-.border-solid {
-  border-style: solid;
-}
-
-.border-red-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(254 226 226 / var(--tw-border-opacity));
-}
-
-.bg-red-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 242 242 / var(--tw-bg-opacity));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-scroll {
-  background-attachment: scroll;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .p-3 {
   padding: 0.75rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -610,18 +554,55 @@ Ensure the default browser behavior of the `hidden` attribute.
   vertical-align: middle;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.text-red-700 {
+.text-gray-700 {
   --tw-text-opacity: 1;
-  color: rgb(185 28 28 / var(--tw-text-opacity));
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.opacity-60 {
-  opacity: 0.6;
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-discord-100 {
+  --tw-text-opacity: 1;
+  color: rgb(110 133 210 / var(--tw-text-opacity));
+}
+
+.text-reddit-100 {
+  --tw-text-opacity: 1;
+  color: rgb(255 69 0 / var(--tw-text-opacity));
+}
+
+.text-twitter-100 {
+  --tw-text-opacity: 1;
+  color: rgb(27 149 224 / var(--tw-text-opacity));
+}
+
+.transition {
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover\:text-black:hover {
@@ -629,17 +610,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#5865F2\]:hover {
+.hover\:text-discord-200:hover {
   --tw-text-opacity: 1;
-  color: rgb(88 101 242 / var(--tw-text-opacity));
+  color: rgb(55 66 105 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#ff4500\]:hover {
+.hover\:text-reddit-200:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 69 0 / var(--tw-text-opacity));
+  color: rgb(191 51 0 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#00acee\]:hover {
+.hover\:text-twitter-200:hover {
   --tw-text-opacity: 1;
-  color: rgb(0 172 238 / var(--tw-text-opacity));
+  color: rgb(12 122 191 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:h-96 {
+    height: 24rem;
+  }
+
+  .sm\:h-8 {
+    height: 2rem;
+  }
+
+  .sm\:w-\[600px\] {
+    width: 600px;
+  }
+
+  .sm\:w-8 {
+    width: 2rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
