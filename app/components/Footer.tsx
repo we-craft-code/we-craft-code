@@ -1,9 +1,10 @@
 export default function Footer() {
   return (
-    <footer className='flex flex-row bg-red-50 opacity-60'>
-    <div className="container mx-auto pb-4 text-center">
-      <p>&copy; 2022 - Build with 💗 by wecratfcode team.</p>
-    </div>
-  </footer>
-  )
+    <footer className="flex py-8">
+      <div className="text-sm mx-auto text-center">
+        <p>&copy; 2022</p>
+        <p>Built with ❤️, by wecratfcode team</p>
+      </div>
+    </footer>
+  );
 }

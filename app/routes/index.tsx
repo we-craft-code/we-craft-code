@@ -1,13 +1,11 @@
-import Body from '~/components/Body'
-import Footer from '~/components/Footer'
-import Header from '~/components/Header'
+import Body from "~/components/Body";
+import Footer from "~/components/Footer";
 
 export default function Index() {
   return (
-    <div style={{ background: `url("/images/wall_logo.png") no-repeat fixed center` }} className="flex flex-col h-screen">
-      <Header />
+    <div className="flex flex-col h-screen max-w-[1024px] mx-auto">
       <Body />
       <Footer />
     </div>
-  )
+  );
 }
