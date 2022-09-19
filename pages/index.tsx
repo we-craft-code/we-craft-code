@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             height={500}
             width={680}
             alt="wecraftcode"
-            layout='intrinsic'
+            layout='responsive'
           />
         </div>
         <Stack className="text-center">
