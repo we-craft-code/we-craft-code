@@ -17,12 +17,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon/favicon-16x16.png" />
       </Head>
       <FullSection id="main">
-        <Image
-          src="/images/logo_and_text.png"
-          height={500}
-          width={680}
-          alt="wecraftcode"
-        />
+        <div className="w-3/4 lg:w-1/3">
+          <Image
+            src="/images/logo_and_text.png"
+            height={500}
+            width={680}
+            alt="wecraftcode"
+            layout='responsive'
+          />
+        </div>
         <Stack className="text-center">
           <div className="py-4 lg:text-4xl lg:max-w-[800px]">
             We are a small group of people who leverage learning and programming
