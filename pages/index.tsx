@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-screen bg-gray-900">
+    <div>
       <Head>
         <title>wecraftcode.org</title>
         <meta
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon/favicon-16x16.png" />
       </Head>
       <FullSection id="main">
-        <Stack>
+        <div className="w-3/4 lg:w-1/3">
           <Image
             src="/images/logo_and_text.png"
             height={500}
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             alt="wecraftcode"
             layout='intrinsic'
           />
-        </Stack>
+        </div>
         <Stack className="text-center">
           <div className="py-4 lg:text-4xl lg:max-w-[800px]">
             We are a small group of people who leverage learning and programming
