@@ -1,7 +1,7 @@
 export const JoinDiscord = () => {
   return (
     <a
-      href="https://discord.com/invite/kp3NQNKW9J"
+      href="https://discord.gg/Z87c4twuaX"
       target="_blank"
       rel="noopener noreferrer"
     >

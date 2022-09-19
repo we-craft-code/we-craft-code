@@ -13,7 +13,7 @@ export const SocialNetworks = () => {
       </a>
       <a
         className="inline-block align-middle text-2xl"
-        href="https://discord.com/invite/kp3NQNKW9J"
+        href="https://discord.gg/Z87c4twuaX"
         target="_blank"
         rel="noopener noreferrer"
       >
